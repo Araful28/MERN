@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CSS Template</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: #666;
+  padding: 30px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 30%;
+  height: 300px; /* only for demonstration, should be removed */
+  background: #ccc;
+  padding: 20px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 70%;
+  background-color: #f1f1f1;
+  height: 300px; /* only for demonstration, should be removed */
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2>W3 school</h2>
+
+<header>
+ <div>
+    <ul style="list-style:  none;color: black; padding: 0; margin: 0; display: flex; gap: 15px;">
+    <li   style="background-color: green;border: 0;align-items: center;;color: white;"><a href="#"></a>HTML</a></li>
+    <li  style="color: white;"><a href="#"></a>CSS</a></li>
+    <li  style="color: white;"><a href="#"></a>Javascript</a></li>
+    <li  style="color: white;"><a href="#"></a>SQL</a></li>
+    <li  style="color: white;"><a href="#"></a>PYTHON</a></li>
+    <li  style="color: white;"><a href="#"></a>JAVA</a></li>
+    <li  style="color: white;"><a href="#"></a>PHP</a></li>
+    <li  style="color: white;"><a href="#"></a>HOW TO</a></li>
+    <li  style="color: white;"><a href="#"></a>W3.CSS</a></li>
+    <li  style="color: white;"><a href="#"></a>C</a></li>
+    <li  style="color: white;"><a href="#"></a>C++</a></li>
+    <li  style="color: white;"><a href="#"></a>C#</a></li>
+    <li  style="color: white;"><a href="#"></a>BOOTSTRAP</a></li>
+    <li  style="color: white;"><a href="#"></a>REACT</a></li>
+    <li  style="color: white;"><a href="#"></a>MYSQL</a></li>
+    <li  style="color: white;"><a href="#"></a>JQUERY</a></li>
+    <li  style="color: white;"><a href="#"></a>EXCEL</a></li>
+    <li  style="color: white;"><a href="#"></a>XML</a></li>
+
+</ul>
+   
+</div> 
+ 
+</header>
+
+<section>
+  <nav>
+    <h1>HTML Tutorial</h1>
+    <ul>
+      <li><a href="#">London</a></li>
+      <li><a href="#">Paris</a></li>
+      <li><a href="#">Tokyo</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>London</h1>
+    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+  </article>
+  
+<footer>
+  <p>Footer</p>
+</footer>
+
+</body>
+</html>
+
