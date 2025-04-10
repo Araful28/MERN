@@ -1,0 +1,83 @@
+let str= "I love you";
+let num=1000;
+
+
+console.log(str);
+console .log(typeof str);
+console.log(num);
+console.log(typeof num);
+
+console.log(str + num); // string concatenation
+console.log(str - num); // NaN (Not a Number)
+console.log(str * num); // NaN (Not a Number)
+console.log(str / num); // NaN (Not a Number)
+console.log(str % num); // NaN (Not a Number)
+console.log(str ** num); // NaN (Not a Number)
+console.log(str == num); // false (string is not equal to number)
+console.log(str === num); // false (strict equality check)
+console.log(str != num); // true (string is not equal to number) 
+console.log(str !== num); // true (strict inequality check)
+console.log(str > num); // false (string is not greater than number)
+console.log(str < num); // true (string is less than number)
+console.log(str >= num); // false (string is not greater than or equal to number)
+console.log(str <= num); // true (string is less than or equal to number)
+console.log(str && num); // 1000 (logical AND operator)
+console.log(str || num); // "I love you" (logical OR operator)
+console.log(!str); // false (logical NOT operator)  
+console.log(!num); // false (logical NOT operator)
+console.log(str + " " + num); // string concatenation with space
+console.log(str - "100"); // NaN (Not a Number)
+console.log(str * "100"); // NaN (Not a Number)
+console.log(str / "100"); // NaN (Not a Number)
+console.log(str % "100"); // NaN (Not a Number)
+console.log(str ** "100"); // NaN (Not a Number)
+console.log(str == "I love you"); // true (string is equal to string)
+console.log(str === "I love you"); // true (strict equality check)
+console.log(str != "I love you"); // false (string is equal to string)
+console.log(str !== "I love you"); // false (strict inequality check)
+console.log(str > "I love you"); // false (string is not greater than string)
+console.log(str < "I love you"); // false (string is not less than string)
+console.log(str >= "I love you"); // true (string is greater than or equal to string)
+console.log(str <= "I love you"); // true (string is less than or equal to string)
+console.log(str && "I love you"); // "I love you" (logical AND operator)
+console.log(str || "I love you"); // "I love you" (logical OR operator)
+console.log(!str); // false (logical NOT operator)
+console.log(!"I love you"); // false (logical NOT operator)
+console.log(str + " " + "I love you"); // string concatenation with space
+console.log(str - "I love you"); // NaN (Not a Number)
+console.log(str * "I love you"); // NaN (Not a Number)
+console.log(str / "I love you"); // NaN (Not a Number)
+
+console.log(str % "I love you"); // NaN (Not a Number)
+console.log(str ** "I love you"); // NaN (Not a Number)
+console.log(str == "I love you"); // true (string is equal to string)
+console.log(str === "I love you"); // true (strict equality check)
+console.log(str != "I love you"); // false (string is equal to string)
+console.log(str !== "I love you"); // false (strict inequality check)
+console.log(str > "I love you"); // false (string is not greater than string)
+
+console.log(str < "I love you"); // false (string is not less than string)
+console.log(str >= "I love you"); // true (string is greater than or equal to string)
+console.log(str <= "I love you"); // true (string is less than or equal to string)
+console.log(str && "I love you"); // "I love you" (logical AND operator)
+console.log(str || "I love you"); // "I love you" (logical OR operator)
+console.log(!str); // false (logical NOT operator)
+console.log(!"I love you"); // false (logical NOT operator)
+console.log(str + " " + "I love you"); // string concatenation with space
+console.log(str - "I love you"); // NaN (Not a Number)
+console.log(str * "I love you"); // NaN (Not a Number)
+console.log(str / "I love you"); // NaN (Not a Number)
+console.log(str % "I love you"); // NaN (Not a Number)
+console.log(str ** "I love you"); // NaN (Not a Number)
+console.log(str == "I love you"); // true (string is equal to string)
+console.log(str === "I love you"); // true (strict equality check)
+console.log(str != "I love you"); // false (string is equal to string)
+console.log(str !== "I love you"); // false (strict inequality check)
+console.log(str > "I love you"); // false (string is not greater than string)
+console.log(str < "I love you"); // false (string is not less than string)
+console.log(str >= "I love you"); // true (string is greater than or equal to string)
+console.log(str <= "I love you"); // true (string is less than or equal to string)
+console.log(str && "I love you"); // "I love you" (logical AND operator)
+console.log(str || "I love you"); // "I love you" (logical OR operator)
+console.log(!str); // false (logical NOT operator)
+console.log(!"I love you"); // false (logical NOT operator)
